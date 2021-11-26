@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnudz1uWA39za7uiCSl3ZsD8PguB8-6D_QWe7V4TbMsdO1gxU5TSbNPPmZ-qWEhG4TZS8&usqp=CAU" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="user-options">
+            
+            <i class="fas fa-video   icon"></i>
+            <i class="fas fa-ellipsis-v   icon"></i>
+            <i class="fas fa-bell    icon"></i>
+       
+            <div class="user-dp">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeik6d5EHLTi89m_CKLXyShylk4L92YflpJQ&usqp=CAU" alt="">
+
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="side-bar">
+        <a href="#" class="links active"><span class="space"><i class="fas fa-home"></i></span>home</a>
+        <a href="https://www.youtube.com/feed/explore" class="links"><span class="space"><i class="fas fa-compass"></i></span> explore</a>
+        <a href="https://www.youtube.com/feed/subscriptions" class="links"><span class="space"><i class="fab fa-youtube"></i></span> subscription</a>
+        <hr class="seperator">
+        <a href="https://www.youtube.com/feed/library" class="links"><span class="space"><i class="fas fa-play"></i></span> library</a>
+        <a href="https://www.youtube.com/feed/history" class="links"><span class="space"><i class="fas fa-history"></i></span> history</a>
+        <a href="https://studio.youtube.com/channel/UC9tPJJI6XtzB4wXMnqoOsUg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" class="links"><span class="space"><i class="far fa-caret-square-right"></i></span> your video</a>
+        <a href="https://www.youtube.com/playlist?list=WL" class="links"><span class="space"><i class="fas fa-clock"></i></span> watch later</a>
+        <a href="https://www.youtube.com/playlist?list=LL" class="links"><span class="space"><i class="fas fa-thumbs-up"></i></span> liked video</a>
+        <a href="#" class="links"><span class="space"><i class="fas fa-sort-down"></i></span> show more</a>
+    </div>
+
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button  class="filter-options" ><a href="https://www.youtube.com/results?search_query=css" class="button">CSS</a> </button>
+        <button class="filter-options"><a href="https://www.youtube.com/results?search_query=web+development">web development</a> </button>
+        <button class="filter-options"><a href="https://www.youtube.com/results?search_query=python">python</a> </button>
+        <button class="filter-options"><a href="https://www.youtube.com/results?search_query=entertainment">entertainment</a> </button>
+        <button class="filter-options"><a href="https://www.youtube.com/results?search_query=marvel">marvel</a> </button>
+        <button class="filter-options"><a href="https://www.youtube.com/results?search_query=javascript">javascript</a> </button>
+        <button class="filter-options"><a href="https://www.youtube.com/results?search_query=artificial+intelligence"> artificial intelligence</a></button>
+
+        <button class="filter-options"><a href="https://www.youtube.com/results?search_query=trending">trending</a> </button>
+    </div>
+
+    <div class="video-container">
+       
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
