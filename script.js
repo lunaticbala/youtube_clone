@@ -58,3 +58,13 @@ searchBtn.addEventListener('click', () => {
         location.href = searchLink + searchInput.value;
     }
 })
+
+
+function increment(){
+var count=document.querySelector('.count');
+var value=count.innerHTML;
+++value;
+
+document.querySelector('.count').innerHTML=value;
+}
+
