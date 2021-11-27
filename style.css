@@ -181,6 +181,17 @@ body{
     overflow-y: hidden;
 }
 
+.sub_count{
+padding-right: 5px;
+margin-right: 10px;
+
+}
+.sub{
+    color: red;
+    width: 20pxs;
+
+}
+
 .filters::-webkit-scrollbar{
     display: none;
 }
